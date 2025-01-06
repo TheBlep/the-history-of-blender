@@ -29,49 +29,6 @@
       text-align: left;
   }
 }
-/*Copied styles from the site https://studio.blender.org/projects/ due to lovely style */
-/*html[data-theme="dark"] {
-  color-scheme: dark;
-  --color-bg: hsl(213, 10%, 12%);
-  --color-bg-primary: hsl(213, 10%, 21%);
-  --color-bg-secondary: hsl(213, 10%, 16%);
-  --color-bg-tertiary: hsl(213, 10%, 14%);
-  --color-text: hsl(213, 10%, 80%);
-  --color-text-primary: hsl(213, 10%, 98%);
-  --color-text-secondary: hsl(213, 10%, 58%);
-  --color-text-tertiary: hsl(213, 10%, 48%);
-  --body-color-bg: hsl(213, 10%, 16%);
-  --border-color: hsla(213, 10%, 80%, .15);
-  --box-shadow-card-lg: hsla(210deg, 8%, 2%, .2) 0 .8rem 2.4rem;
-  --btn-color: hsl(213, 16%, 78%);
-  --btn-color-bg: hsl(213, 10%, 28%);
-  --btn-color-bg-hover: hsl(213, 10%, 30%);
-  --code-color: hsl(297deg, 30%, 78%);
-  --code-color-bg: hsl(297deg, 70%, 50%, .08);
-  --input-color-bg: hsl(213, 10%, 16%);
-  --input-color-bg-hover: hsl(213, 10%, 14%);
-  --input-color-border: var(--input-color-bg);
-  --navbar-bg: var(--color-bg);
-  --navbar-link-color-active: #fff;
-  --table-border-color: var(--btn-color-bg-hover);
-  --color-info: hsl(207deg, 95%, 65%);
-  --color-info-text: hsl(212deg, 85%, 62%);
-  --color-info-bg: hsl(212deg, 85%, 62%, .2);
-  --color-danger: hsl(0deg, 82%, 63%);
-  --color-danger-bg: hsl(0deg, 25%, 24%);
-  --color-danger-bg-hover: hsl(0deg, 25%, 28%);
-  --color-danger-text: hsl(0deg, 75%, 65%);
-  --color-success: hsl(90deg 60% 36%);
-  --color-success-bg: hsl(90, 24%, 25%);
-  --color-success-bg-hover: hsl(90deg 64% 78%);
-  --color-success-text: hsl(90deg, 29%, 60%);
-  --color-warning-bg: hsla(42, 79%, 60%, .4);
-  --color-warning-bg-hover: hsla(42, 79%, 70%, .4);
-  --color-warning-text: hsl(42, 79%, 80%);
-  --admin-color-bg: hsla(285deg, 29%, 36%, .6);
-  --admin-color-bg-hover: hsla(285deg, 39%, 32%, .8);
-  --admin-color-text: hsl(285deg 65% 76%);
-} */
 *{
     padding: 0;
     margin: 0;
@@ -80,7 +37,6 @@
 
 
 body{
-    /* background-color: var(--color-bg); */
     color: var(--color-text);
     min-height: 100vh;
     display: flex;
@@ -88,13 +44,10 @@ body{
 }
 
 header{
-    
     font-family: 'Oswald', sans-serif;
-   
 } 
 
 main{
-   
     flex: 1 0 auto;
 }
 
@@ -113,56 +66,56 @@ background-color: aqua;
     font-weight: 100;
     font-style: normal;
   }
-  
-  .lato-light {
+ 
+.lato-light {
     font-family: "Lato", serif;
     font-weight: 300;
     font-style: normal;
   }
   
-  .lato-regular {
+.lato-regular {
     font-family: "Lato", serif;
     font-weight: 400;
     font-style: normal;
   }
   
-  .lato-bold {
+.lato-bold {
     font-family: "Lato", serif;
     font-weight: 700;
     font-style: normal;
   }
   
-  .lato-black {
+.lato-black {
     font-family: "Lato", serif;
     font-weight: 900;
     font-style: normal;
   }
   
-  .lato-thin-italic {
+.lato-thin-italic {
     font-family: "Lato", serif;
     font-weight: 100;
     font-style: italic;
   }
   
-  .lato-light-italic {
+.lato-light-italic {
     font-family: "Lato", serif;
     font-weight: 300;
     font-style: italic;
   }
   
-  .lato-regular-italic {
+.lato-regular-italic {
     font-family: "Lato", serif;
     font-weight: 400;
     font-style: italic;
   }
   
-  .lato-bold-italic {
+.lato-bold-italic {
     font-family: "Lato", serif;
     font-weight: 700;
     font-style: italic;
   }
   
-  .lato-black-italic {
+.lato-black-italic {
     font-family: "Lato", serif;
     font-weight: 900;
     font-style: italic;
