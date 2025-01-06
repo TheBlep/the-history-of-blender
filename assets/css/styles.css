@@ -2,30 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Oswald:wght@200..700&display=swap');
 
- /* Custom styles for the burger menu */
-@media (max-width: 992px) {
-  .navbar-toggler {
-      display: block;
-      cursor: pointer;
-      margin-left: auto;
-  }
-  #menu-toggle:checked ~ .navbar-collapse {
-      display: flex;
-  }
-  .navbar-collapse {
-      display: none;
-      flex-direction: column;
-      gap: 10px;
-      padding: 1rem;
-  }
-  .navbar-collapse a {
-      text-align: left;
-  }
-}
-/* Override default browser styles */
-.navbar-toggler {
-  display: none;
-}
+/*Navbar line removal*/
 *{
     padding: 0;
     margin: 0;
