@@ -12,30 +12,27 @@
       cursor: pointer;
       margin-left: auto;
   }
-
   #menu-toggle:checked ~ .navbar-collapse {
       display: flex;
   }
-
   .navbar-collapse {
       display: none;
       flex-direction: column;
       gap: 10px;
-      /* background-color: var(--navbar-bg); */
       padding: 1rem;
   }
-
   .navbar-collapse a {
       text-align: left;
   }
 }
+/*Overriding default styling*/
 *{
     padding: 0;
     margin: 0;
     box-sizing: border-box;
 }
 
-
+/*Tag styling*/
 body{
     color: var(--color-text);
     min-height: 100vh;
