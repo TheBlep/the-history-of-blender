@@ -1,10 +1,7 @@
-/* google font import */
+/* Google font import */
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Oswald:wght@200..700&display=swap');
-/* override default browser styles */
-.navbar-toggler {
-  display: none;
-}
+
  /* Custom styles for the burger menu */
 @media (max-width: 992px) {
   .navbar-toggler {
@@ -25,11 +22,18 @@
       text-align: left;
   }
 }
-/*Overriding default styling*/
+/* Override default browser styles */
+.navbar-toggler {
+  display: none;
+}
 *{
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+}
+
+#maxfw {
+  max-width: 500px;
 }
 
 /*Tag styling*/
