@@ -1,11 +1,11 @@
 <div align="center">
-  <img src="https://user-images.githubusercontent.com/44118951/92330123-c924fc80-f06c-11ea-8fa6-f3e342efebb9.png" style="background-color: black" alt="Horizon Photo">
+  <img src="assets/images/readme-images/title.png" style="background-color: black" alt="The History of Blender">
 </div>
 <div align="center">
-  <img src="https://user-images.githubusercontent.com/44118951/92330234-9deedd00-f06d-11ea-98af-db71c1f07342.png" alt="Home Page">
+  <img src="assets/images/readme-images/index.png" alt="Home Page">
 </div>
 
-[The History of Blender](https://theblep.github.io/the-history-of-blender/index.html) is designed as a portfolio for a travel Photographer with an interactive map of photos as its main feature. Its goal is to highlight the photographer and to create interest in the photographer's work through an interactive exploration of different countries, instead of a static gallery. I wanted to create a certain fascination in the country, the location, that can represent a coherent idea or theme, rather than just a gallery of beautiful photos. As it is a portfolio, a minimal aesthetic has been maintained to highlight the photos, with only critical links and info displayed. While photography sites vary greatly in design, the key is putting the photos front and center, so I have cut away all extras and done just that.
+[The History of Blender](https://theblep.github.io/the-history-of-blender/index.html) is designed as an approachable introduction to Blender's history, offering users a brief yet engaging journey through its evolution. The goal is to provide digestible insights into Blender's past and present, while also sharing resources for those eager to dive deeper into learning. With a friendly, conversational tone, the site feels like a passionate friend sharing their enthusiasm for Blender. Its minimal and focused design keeps the content from feeling overwhelming, emphasizing key milestones and the vibrant community that surrounds Blender 3D.
 
 ## Table of Contents
 1. <details open>
