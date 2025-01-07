@@ -127,100 +127,99 @@
 # UX
 ## Goals
 ### Visitor Goals
-The target audience for Horizon Photography are:
-- People who want to view beautiful photos.
-- People who are interested in seeing different countries.
-- People that may want to license a photo.
-- People interested in hiring a photographer.
-- People interested in the photographer's travels.
+
+The target audience for "The History of Blender" website includes:
+
+- People interested in the history and evolution of Blender.
+- Beginners curious about Blender's origins before starting to learn it.
+- Blender enthusiasts seeking additional resources for further education.
+- Fans of open-source software and its impact on creative tools.
+- Individuals who enjoy blog-style storytelling about technical topics.
 
 User goals are:
-- View a gallery of different photos.
-- Explore different countries on the map to see what they look like.
-- Contact the photographer.
-- Get an overview of a country's statistics.
-- Follow the photographer's journey.
 
-Horizon Photography fills these needs by:
-- Opening with a dramatic image and introducing the photographer immediately.
-- The map and gallery are highlighted on the main page to lead users to the images wherever they click.
-- Highlighting the Contact page in the header and footer.
-- Providing social media links to follow the photographer.
-- 500px link allows a user to license photos.
-- Providing an interactive map with an info-box that displays country info from an API
-- Showing beautiful images related to each country when clicked.
-- Utilising [EmailJS](https://www.emailjs.com/) to maintain the contact page and the newsletter.
+- Gain an understanding of Blender's history in a concise, engaging way.
+- Discover key milestones in Blender's development.
+- Explore additional resources for learning more about Blender.
+- Enjoy a friendly, blog-style tone that feels welcoming and approachable.
+- Navigate a clean and minimal site without being overwhelmed by information.
+
+The History of Blender" fulfills these needs by:
+
+- Introducing users to the site with a clear and friendly tone.
+- Highlighting Blender's past and present through a timeline or historical narrative.
+- Providing links to resources for further exploration, such as tutorials or documentation.
+- Keeping the design minimal and focused, ensuring the information remains digestible.
+- Offering a layout that feels personal, akin to a passionate storyteller sharing their knowledge.
+
 
 ### Business Goals
-The Business Goals of Horizon Photography are:
-- Display and highlight the photographer's work in a unique way.
-- Gain subscribers through the newsletter.
-- Provide easy ways to communicate with the photographer.
-- Gain interest and connect with social media.
-- Connect to where the photos are sold.
+
+The Business Goals of "The History of Blender" website are:
+- Provide informative content on Blender's history in an engaging and accessible way.
+- Attract a wider audience interested in learning about Blender’s evolution.
+- Offer resources that help users get started with Blender.
+- Potential future revenue from ads displayed on the website.
+- Consider the possibility of selling a plugin or resource that simplifies Blender's introduction for beginners.
+
 
 ### User Stories
-1. As a user interested in photography, I expect to see lots of different beautiful photos.
-0. I expect the photos to be highlighted first and foremost.
-0. As a user interested in travel, I expect to see different countries on display.
-0. As a user interested in different countries, I expect to see information on the countries.
-0. As a person interested in hiring a photographer, I expect to find an easy way to contact the photographer.
-0. I expect to hear a little about the photographer if I am interested.
-0. I expect to be able to follow the photographer through social media.
-0. I would like to be able to hear about the photographer's updates through social media.
-0. If I were interested in buying a photo, I expect to know where.
+
+1. As a user interested in learning about Blender, I expect to see a clear and engaging presentation of Blender's history.
+2. I expect the information to be presented in a way that's easy to follow and entertaining.
+3. As a beginner in Blender, I expect to find resources that help me understand its evolution and significance.
+4. As a user interested in the development of open-source tools, I expect to see detailed information about Blender's impact.
+5. As a user interested in the community behind Blender, I expect to learn about its contributors and their influence on the software.
+6. I expect to be able to explore additional resources that can help me dive deeper into Blender's features and capabilities.
+7. As a potential customer, I would like to know about any products, such as a plugin, that could help me get started with Blender.
+8. If I were interested in ads or related offers, I expect them to be relevant to my interests in Blender.
+
 
 ## Visual Design
-### Wireframes
-Wireframes: https://drive.google.com/drive/folders/1WwDSap35rXV1i8_9hCPBqiXvpMdoFJsQ?usp=sharing
+### Frameworks
+Templates for HTML framework were made using Chat GPT and edited apon with Bootstrap and code snippets from the course.
 
 ### Fonts
 <div align="center">
-  <img src="https://user-images.githubusercontent.com/44118951/92331221-6f750000-f075-11ea-8096-288bcc957e33.png" alt="Fonts">
+  <img src="assets/images/readme-images/Fontsdesiplay.png" alt="Fonts">
 </div>
 
-- The primary font, [Montserrat](https://fonts.google.com/specimen/Montserrat#standard-styles) was chosen because it is standard, plain and informative but not too rigid. It looks friendly and conversational but holds a seriousness. It is also sans-serif, making it very easily readable throughout different color schemes and complementary to the font used for Headings.
-- The secondary font, [Julius Sans One](https://fonts.google.com/specimen/Julius+Sans+One#standard-styles) was chosen because it is thin, elegant and refined yet it has flair. As a font, it gave me the impression of an art gallery. It is sans-serif, so it is clear, clean and simple, maintaining the idea of a minimalist aesthetic. It was chosen for headings as it is evident but doesn't distract, keeping the eyes more focused on the photography.
+- The primary font, [Oswald](https://fonts.google.com/specimen/Oswald) was chosen because it seemed to fit well with the minimal look of the website.
+- The secondary font, serif was chosen due to its default nature in HTML as well as to simplify the development.
 
 ### Icons
 <div align="center">
-  <img src="https://user-images.githubusercontent.com/44118951/92331590-1fe40380-f078-11ea-814b-d15b413f59aa.png" alt="Icons">
+  <img src="assets/images/readme-images/footerlinks.png" alt="Icons">
 </div>
 
-- Icons are taken from the [Fontawesome](https://fontawesome.com/) Icon library and are utilised as classes in the `<i>` tag.
-- As they are utilised as classes, they can easily be styled using other classes or IDs in the same tag. I often used Bootstrap classes to style them uniformly.
-- Icons are utilised in the footer for social account icons and the "scroll-to-top" arrow on the gallery page.
+- Icons are taken from the [Fontawesome](https://fontawesome.com/) Icon library and are utilised with the "fab fa-..." classes
+- Icons are utilised in the footer for social account icons.
 
 ### Colors
 <div align="center">
-  <img src="https://user-images.githubusercontent.com/44118951/92331821-a64d1500-f079-11ea-9ceb-a9b1b85872bd.png" alt="Color Pallette">
+  <img src="assets/images/readme-images/websire-colors.png" alt="Color Pallette">
 </div>
 
-- I wanted the site to maintain a minimal aesthetic, colors are very basic and clean for highlighting the photos.
-- The primary color used is black. This is used to create a stark contrast with the colors of the photos, drawing the eyes and focus on them. This removes distraction, a common practice in theatre, cinemas, etc. White is often used in galleries but has more to do with lighting and reflection. On most computer screens, wherein the light is emitted from the screen, black is a better choice.
-- One accent color was chosen, the green to give a thematic connection to nature, the outdoors and travel. A little bit more than black and white is necessary to have an impact.
-- Text is primarily written in white to contrast on the bold color backgrounds of the primary and accent colors.
-- Finally, a neutral grey color is used for the footer to set it apart from the other elements on the site.
+- The site is designed with a minimal aesthetic, ensuring the content remains the focus without distractions.
+- White is the primary color, providing a clean backdrop that enhances readability and directs attention to the information.
+- A light accent color, chosen for subtle warmth, is used sparingly to highlight key sections and guide the user’s eye.
+- Text is presented in black or dark grey for clear contrast against the light background, making the content easy to read.
+- A neutral grey color is used for the footer, helping to visually separate it from the main content and maintain a clean layout.
+
 
 ### Images
 <div align="center">
-  <img src="https://user-images.githubusercontent.com/44118951/92332253-c7633500-f07c-11ea-8f9e-a5f03b0fe1da.png" alt="Images">
+  <img src="assets/images/readme-images/images1.png" alt="First Images">
+  <img src="assets/images/readme-images/images2.png" alt="Second Images">
 </div>
 
-- The site has a heavy focus on image use, using full-size quality images for exhibition purposes.
-- As such, the images use a script while loading that blurs thumbnails and swaps in the full quality image when fully loaded.
-- In the main gallery, images are displayed in three columns responsively, so they can easily be seen on any size device.
-- Clicking on a small image will open up a full-page modal that displays the image in detail.
-- The images will automatically space themselves vertically within the column, so the gallery height is even.
-- Images will swap out on selecting another country, resetting the loading blur feature and changing URLs.
+- The site has a large focus on images, showcasing the evolution of visuals developed in Blender.
+- On the home page the images are displayed in three columns responsively, so they can easily be seen on any size device.
+- The images and respective text will automatically space themselves vertically within the column, so the column is never too thin.
 
 ### Styling
-- For this project I have utilised Bootstrap 4.5 source files to override their class defaults to my liking, making customisation much easier. The entire site can be restyled with a single switch in the code.
+- For this project I have utilised Bootstrap 5.3 CSS and JS libraries to ease development on the navigation bar, buttons, contact form and content responsivness.
 - The primary and secondary colors have been applied to bootstrap classes for easy use across the site.
-- Using the SASS, sharp-edged boxes have been applied by default, taking advantage of the features.
-- Responsive text sizing has also been enabled using SASS.
-- As the site has a beeline focus on use, links on each page are re-used to direct the user to either the Gallery or the Contact page no matter where they look.
-- Animations are utilised for smoothness in certain transitions, such as when a new country is selected in the gallery or on the Travel Gallery link.
 
 ----
 
