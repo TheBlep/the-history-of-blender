@@ -45,24 +45,24 @@
 
   </header>
 
-  <!-- Contact form-->
+  <!-- Contact form -->
 
   <main class="container my-5">
     <h2 class="text-center mb-4">Contact Us</h2>
-    <form class="mx-auto" id="maxfw" action="success.html" method="GET">
+    <form class="mx-auto" id="maxfw" method="POST" action="https://formdump.codeinstitute.net/" name="contact-form">
       <div class="mb-3">
         <label for="exampleInputEmail1" class="form-label">Email address</label>
-        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
+        <input type="email" name="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
           placeholder="Enter your email" required>
         <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
       </div>
       <div class="mb-3">
         <label for="exampleTextarea1" class="form-label">Your Message</label>
-        <textarea class="form-control" id="exampleTextarea1" rows="4" placeholder="Type your message"
+        <textarea class="form-control" name="message" id="exampleTextarea1" rows="4" placeholder="Type your message"
           required></textarea>
       </div>
       <div class="mb-3 form-check">
-        <input type="checkbox" class="form-check-input" id="exampleCheck2" required>
+        <input type="checkbox" name="checkbox" class="form-check-input" id="exampleCheck2" required>
         <label class="form-check-label" for="exampleCheck2">I agree to the terms and conditions</label>
       </div>
       <button type="submit" class="btn btn-dark w-40">Submit</button>
