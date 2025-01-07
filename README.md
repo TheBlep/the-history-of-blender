@@ -228,15 +228,14 @@ Templates for HTML framework were made using Chat GPT and edited apon with Boots
 ### All Pages
 #### Navbar
 <div align="center">
-  <img src="https://user-images.githubusercontent.com/44118951/92332641-b831b680-f07f-11ea-8ff6-d414e661b490.png" alt="Medium Header">
-  <img src="https://user-images.githubusercontent.com/44118951/92332689-f29b5380-f07f-11ea-9646-162f1b7b66c9.png" alt="Small Header">
+  <img src="assets/images/readme-images/navbar.png" alt="Medium Header">
+  <img src="assets/images/readme-images/navbar-small.png" alt="Small Header">
 </div>
 
-- The Navbar is simple, providing only three options with only two very evident the Gallery and Contact pages, to maintain the minimalist style.
-- The Logo is always highlighted, swapping position as necessary depending on device size.
+- The Navbar is simple, providing only two major options and one contact option.
+- The Logo is always isolated and easy to read, adapting to smaller screens.
 - On smaller devices, the menu becomes collapsible.
 - The mobile nav button has been placed to the right for ease of use with one hand.
-- The navbar is fixed so it is visible no matter how far you scroll.
 
 #### Footer
 <div align="center">
