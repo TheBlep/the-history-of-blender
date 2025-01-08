@@ -321,28 +321,17 @@ Templates for HTML framework were made using Chat GPT and edited apon with Boots
     * Page markup.
 - [CSS](w3.org/standards/webdesign/htmlcss)
     * Styling.
-- [SASS](https://sass-lang.com/)
-    * Used to customise Bootstrap and CSS styles.
-- [Javascript](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
-    * Running functions for interactive components, AJAX, etc.
 
 ## Frameworks
 - [Bootstrap4](https://getbootstrap.com/)
     * Used for basic styles and outline.
 
 ## Libraries
-- [JQuery](https://jquery.com/)
-    * Animations and click functions.
 - [Google Fonts](https://fonts.google.com)
     * Font Styles.
 - [Fontawesome](https://fontawesome.com/)
     * Used for icons
 
-## APIs
-- [Google Maps Javascript API](https://developers.google.com/maps/documentation/javascript/tutorial)
-    * Map, markers and styles.
-- [REST Countries API](https://restcountries.eu/)
-    * Statistics for infowindow, marker information
 
 ## Platforms
 - [Github](https://github.com/)
@@ -351,11 +340,7 @@ Templates for HTML framework were made using Chat GPT and edited apon with Boots
     * IDE for project development.
 
 ## Other Tools
-- [Balsamiq](https://balsamiq.com/)
-    * To create wireframes.
-- [Favicon Generator](https://www.favicon-generator.org/)
-    * Favicons
-- [Mockup Generator](https://techsini.com/multi-mockup/index.php)
+- [Mockup Generator](http://techsini.com/multi-mockup/)
     * For device mockup images.
 - [Coolors](https://coolors.co/)
     * Creating color pallettes.
@@ -366,9 +351,7 @@ Templates for HTML framework were made using Chat GPT and edited apon with Boots
 ## Methods
 ### Validation
 - HTML has been validated with [W3C HTML5 Validator](https://validator.w3.org/).
-- CSS has been validated with [W3C CSS Validator](https://jigsaw.w3.org/css-validator/) and auto-prefixed with [CSS Autoprefixer](https://autoprefixer.github.io/).
-- Links checked with [W3C Link Checker](https://validator.w3.org/checklink).
-- Each javascript file was tested on the site for errors and functionality using the console and with [JSHint](https://jshint.com/).
+- CSS has been validated with [W3C CSS Validator](https://jigsaw.w3.org/css-validator/)
 
 ### General Testing
 - Each time a feature was added, all the functions were tested to see if there was an impact.
