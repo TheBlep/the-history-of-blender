@@ -329,8 +329,9 @@ Templates for HTML framework were made using Chat GPT and edited apon with Boots
 # Testing
 ## Methods
 ### Validation
-- HTML has been validated with [W3C HTML5 Validator](https://validator.w3.org/).
-- CSS has been validated with [W3C CSS Validator](https://jigsaw.w3.org/css-validator/)
+- HTML has been validated with [W3C HTML5 Validator](https://validator.w3.org/). No errors
+- CSS has been validated with [W3C CSS Validator](https://jigsaw.w3.org/css-validator/) No errors
+- Accessabilit validated with [Pagespeed](pagespeed.web.dev) 100% accessabiltiy on all pages
 
 ### General Testing
 - Each time a feature was added, all the functions were tested to see if there was an impact.
