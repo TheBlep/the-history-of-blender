@@ -410,10 +410,7 @@ Templates for HTML framework were made using Chat GPT and edited apon with Boots
 ## Local Deployment
 ### Local Preparation
 **Requirements:**
-- An IDE of your choice, such as [Visual Studio Code](https://code.visualstudio.com/)
-- [Git](https://git-scm.com/)
-- You will have to set up a connection with an email server through EmailJS:
-- You will have to install SASS to compile the CSS. This depends on your system and your method choice. Please see the instructions [here](https://sass-lang.com/install).
+- An IDE of your choice, such as [Gitpod](https://www.gitpod.io/)
 
 ### Local Instructions
 1. Clone the repository with:
