@@ -404,7 +404,7 @@ The blender.org [History page](https://www.blender.org/about/history/) was the m
 Any code utilised from a site is documented and credited within the code.
 [Bootstrap](https://getbootstrap.com/) is heavly relied apon for the navbar, footer, contact page, buttons and styling.
 All photographs are screen shots from the Blender website or YouTube. The mockup images where made using a free online tool.
-The README is based heavly on the template from [https://theblep.github.io/the-history-of-blender/index.html](https://theblep.github.io/the-history-of-blender/index.html)
+The README is based heavly on the template from [https://github.com/Ri-Dearg/horizon-photo/blob/main/README.md](https://github.com/Ri-Dearg/horizon-photo/blob/main/README.md)
 
 ### Contact
 Please feel free to contact me via github.
