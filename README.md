@@ -259,9 +259,6 @@ Templates for HTML framework were made using Chat GPT and edited apon with Boots
 <div align="center">
   <img src="assets/images/readme-images/what-become.png" alt="About">
 </div>
-<div align="center">
-  <img src="" alt="About">
-</div>
 
 - After the initial image to give a foundation, the "What Blender has become" section presents the contrasting modern status and visuals of Blender
 - Hopefully, the impact will create enough interest to read the further text and/or proceed to the resources page.
