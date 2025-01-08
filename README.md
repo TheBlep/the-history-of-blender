@@ -181,7 +181,7 @@ Templates for HTML framework were made using Chat GPT and edited apon with Boots
 
 ### Fonts
 <div align="center">
-  <img src="assets/images/readme-images/Fontsdesiplay.png" alt="Fonts">
+  <img src="assets/images/readme-images/fontsdesiplay.png" alt="Fonts">
 </div>
 
 - The primary font, [Oswald](https://fonts.google.com/specimen/Oswald) was chosen because it seemed to fit well with the minimal look of the website.
@@ -239,84 +239,40 @@ Templates for HTML framework were made using Chat GPT and edited apon with Boots
 
 #### Footer
 <div align="center">
-  <img src="https://user-images.githubusercontent.com/44118951/92339926-c18b4500-f0b8-11ea-9101-c5f3e55b4b95.png" alt="Medium Footer">
-  <img src="https://user-images.githubusercontent.com/44118951/92339924-c0f2ae80-f0b8-11ea-8fb1-7f7593dd2dae.png" alt="Small Footer">
+  <img src="assets/images/readme-images/footer.png" alt="Medium Footer">
 </div>
 
-- Located at the bottom of every page, mainly highlighting contact and social aspects with the photographer.
+- Located at the bottom of every page, highlighting the (non existant) privacy policy and terms of service additionally to the contact page.
 - Made of three columns, changing shape for larger or smaller devices.
-- The first column has a newsletter signup box that uses EmailJS to make contact with the photographer.
-- A modal confirming the message has been sent and changes on success or an error is used for a response.
-- A message encouraging contact is used as the second column.
-- The third column represents social media links, highlighting 500px as the place to purchase photos.
 
 ### Index Page
-#### Jumbotron Image
-- Used as a splash image that highlights a dramatic photograph, representing a sense of adventure.
-- An image with a person in it is used so the viewer can connect with it on a personal level.
-- Uses the javascript lazy loading feature as the image is large and must show all at once for an impact
-- Text is blurred and comes into view with the image to draw attention to the phrase.
-
-#### About Section
+#### Short films
 <div align="center">
-  <img src="https://user-images.githubusercontent.com/44118951/92338749-aae1ef80-f0b2-11ea-854d-6700642cdef9.png" alt="About">
+  <img src="assets/images/readme-images/short-films.png" alt="About">
+</div>
+- Minimal and direct approach with information on the first official short films of the Blender institute.
+- Three columns are used with images first to intice the user to continue further and read the text. 
+- Text contains a links to further reading or the short film itself.
+
+#### What Blender has become
+<div align="center">
+  <img src="assets/images/readme-images/what-become.png" alt="About">
+</div>
+<div align="center">
+  <img src="" alt="About">
 </div>
 
-- After the initial image to give a strong impact, the about section is presented in the contrasting accent color to make it stand out.
-- Hopefully, the impact will create enough interest to read about the photographer.
-- The section is responsive and the two columns will stack on resize.
-- The section contains a fully responsive image and a small text section with responsively sized text.
-- Contains a small link to a place where you can purchase or license photographs, highlighted and underlined in bold, this is in addition to the link in the footer.
+- After the initial image to give a foundation, the "What Blender has become" section presents the contrasting modern status and visuals of Blender
+- Hopefully, the impact will create enough interest to read the further text and/or proceed to the resources page.
+- The section is responsive and the three columns will stack on resize.
 
-#### Travel Gallery Link
-- A full-width banner link that switches to brings the user to the gallery.
-- Animated with CSS to draw attention on hover.
-- Expands in size, seeming to exit from the page, and darkens the background to draw attention to the item.
-
-### Gallery Page
+### Resource Page
 <div align="center">
-  <img src="https://user-images.githubusercontent.com/44118951/92344160-fd78d700-f0c5-11ea-9017-7046a210424f.png" alt="Gallery Page">
+  <img src="assets/images/readme-images/resources.png" alt="Resource Page">
 </div>
-
-#### Interactive Map
-<div align="center">
-  <img src="https://user-images.githubusercontent.com/44118951/92340153-91907180-f0b9-11ea-857e-3a5edcc8f840.png" alt="Gallery Map">
-</div>
-
-- Uses the[Google Maps Javascript API](https://developers.google.com/maps/documentation/javascript/tutorial) to load an interactive map.
-- All features utilise javascript.
-- The [Google Maps Styling Wizard](https://mapstyle.withgoogle.com/) has been used to keep the map consistent with the site pallette.
-- The map zoom level is set differently depending on the device screen size.
-- Map markers are automatically generated and pull info from the [REST Countries API](https://restcountries.eu/).
-- Adding a country name to the `countryName` variable in `map.js` will allow a marker to be created with an info window that has the country statistics already filled.
-- `map.js` will automatically format the country info for the info window to be easily readable.
-- The info window has been styled to be consistent with the other elements of the site.
-- Content in the info window will automatically delete and refresh for each marker.
-- The country information is used to swap the picture URLs in the gallery.
-- Markers are animated to drop onto the map together.
-- The selected marker has been set to animate on click and stop any other animated markers. A second click will stop the animation.
-- After being clicked the page will briefly show the info window opening before smoothly scrolling down to the gallery automatically to carry the user to the images.
-- After a short scroll down a little arrow will appear in the bottom right which can be used to scroll to the top of the page again.
-- If the [REST Countries API](https://restcountries.eu/) is unreachable for any reason, the `markerArray.js` file is used to produce the markers.
-- In the backup function, the info window is not generated as that required the API.
-
-#### Iframe Gallery
-<div align="center">
-  <img src="https://user-images.githubusercontent.com/44118951/92342235-812fc500-f0c0-11ea-8867-806e010a7638.png" alt="Iframe Gallery">
-</div>
-
-- A fully responsive, javascript-backed iframe gallery.
-- Displays three columns no matter the device size, so all photos are nicely displayed.
-- Used as an iframe so the layout can be modified separately from the gallery data.
-- Starts by displaying default images and an invitation to use the map.
-- Once a map marker is clicked, the images will swap out URLs, and the countries images will show.
-- Functions listen for a change to reset the image blur function.
-- Information for a blurb is stored on the gallery page and injected into the loaded iframe on click.
-- The swap is animated with jQuery to make it less sudden.
-- Clicking on an image will insert the image source path into a modal before it pops up to display the image in full quality.
-- The gallery's height can vary by photos and device, so there is a function to adjust the height.
-- The function fires on page load one, and then each time a marker is clicked, after every image has loaded completely, otherwise the height set may be incorrect.
-- The images in the gallery space vertically automatically based on the gallery height.
+- Matching the minimal style of the index page, the resource page contains two rows each with two columns, one image, one text with link.
+-The first row gives a link directly to the Blender home page and further information.
+- The second link sends the user to a few tutorials perfect for beginners wanting to start learning Blender.
 
 ### Contact Page
 <div align="center">
@@ -438,21 +394,15 @@ Templates for HTML framework were made using Chat GPT and edited apon with Boots
 
 ## Bugs
 ### Known Bugs
-- Occasionally on a device with low RAM, the Google Maps API won't load.
-- Devices with low RAM may have stuttered animations.
-- Offline, using the backup map, the images don't switch the first time the page loads. No errors are shown on the console. A refresh usually solves the issue.
-- Very slow connections may have users see the thumbnails pop in during iframe loading, rather than having the switch occur during the animation.
+- On mobile devices perfomance decreases to ~80% compared to the near 100% on desktop devices
+- Content and the visual redline is lacking and could be improved.
+- Storyline could be made more clear.
 
 ### Fixed Bugs
-- Jumbotron image wouldn't de-blur. Fixed by adding a custom class for selection and differentiation.
-- Markers wouldn't load if the connection to the API was slow. Fixed by adding a backup array to be used as a fall-back.
-- EmailJS wasn't allowing newsletters to be sent on the contact page. Fixed by giving each form a separate ID.
-- The map info window wouldn't dispose of itself but would open multiple instances, one over the other. Fixed by moving the initialisation instance outside of the click function.
-- The info window would concatenate one country's information with another after clicked. Fixed by clearing the info window content on each click before populating it with info.
-- If a country had multiple first languages, the info window would have a display that clipped them as they were stored in an array themselves. Fixed by writing a custom function to deal with languages.
-- All map markers would bounce if they had animations set to active. Fixed by looping through the markers and setting them to no animation before activating the clicked marker's animation.
-- The modal for images in the gallery wouldn't open because of the blur function. Fixed by changing the HTML structure on the page and the iframe.
-- One I added SASS, many of the site's display features were broken. Fixed by cleaning up the CSS files and removing clashing styles.
+- Burger menu on smaller devices would dissapear and/or not expand. Fixed by removing conflicting CSS styles and adding missing quotation marks in tag classes.
+- Contact form would not send data. Fixed by adding name class to the form tag.
+- Parsing error on google fonts import. Fixed by removing previously unseen comment end tag at the end of import.
+
 
 ----
 
@@ -466,61 +416,45 @@ Templates for HTML framework were made using Chat GPT and edited apon with Boots
 - You will have to install SASS to compile the CSS. This depends on your system and your method choice. Please see the instructions [here](https://sass-lang.com/install).
 
 ### Local Instructions
-1. Download a copy of the project repository [here](https://github.com/Ri-Dearg/neverlost-thrift/archive/master.zip) and extract the zip file to your base folder. Or you can clone the repository with:
+1. Clone the repository with:
     ```
-    git clone https://github.com/Ri-Dearg/neverlost-thrift
+    git clone https://github.com/TheBlep/the-history-of-blender
     ```
     To disconnect it from the master repository, use:
     ```
     git remote rm origin
     ```
 2. Open your IDE and choose the base directory.
-3. Here you can install SASS with npm, if you choose, with:
-    ```
-    npm install -g sass
-    ```
-4. Run the compiler with:
-    ```
-    sass --watch assets/css/bootstrap_sass:assets/css
-    ```
-    This will also watch the bootstrap_sass folder for changes and re-compile the CSS when they are made. This way you can make changes quickly and not worry about re-compiling.
-6. Switch the user token for EmailJS with your own. It can be found in the head tag:
-    ```
-    (function () {
-        emailjs.init("<your user token>");
-    })();
-    ```
-5. Run the project with your chosen method. You can drop index.html into a web browser and it should run fine, open a local port and access it or, if you have python installed, run it on an HTTP server with python with a command such as:
+3. Run the project with your chosen method. You can drop index.html into a web browser and it should run fine, open a local port and access it or, if you have python installed, run it on an HTTP server with python with a command such as:
     ```
     python3 -m http.server
     ```
-6. Enjoy the site!
+4. Enjoy the site!
 
 ## Github Deployment
 ### Github Preparation
-- It is possible to copy or clone the repository to directly for deployment, but you will have to compile the make sure the SCSS compiles correctly first. Github Pages' Jekyll themes support this but you will have to make some customisations. Details can be found [here](https://jekyllrb.com/docs/assets/).
+- It is possible to copy or clone the repository directly for deployment.
 **Requirements:**
 - A free GitHub account.
-- A free EmailJS account.
 
 ### Github Instructions
 1. Log in to your GitHub account.
-navigate to [https://github.com/Ri-Dearg/neverlost-thrift](https://github.com/Ri-Dearg/neverlost-thrift).
+navigate to [https://github.com/TheBlep/the-history-of-blender](https://github.com/TheBlep/the-history-of-blender).
 1. You can set up your own repository and copy or clone it, or you fork the repository.
 2. `git add`, `git commit` and `git push` to a GitHub repository, if necessary.
 3. GitHub pages will update from the master branch by default.
 4. Go to the **Settings** page of the repository.
 5. Scroll down to the **Github Pages** section.
 7. Select the Master Branch as the source and **Confirm** the selection.
-8. Wait a minute or two and it should be live for viewing. See my own [here](https://ri-dearg.github.io/horizon-photo/).
+8. Wait a minute or two and it should be live for viewing. See my own [here](https://theblep.github.io/the-history-of-blender/index.html).
 
 ## Credits and Contact
 ### Content
-Nearly all text content was generated by the AI, GPT-2, at [Talk to Transformer](https://talktotransformer.com/).
-**(So there will be plenty of grammar or spelling errors or even a bit of nonsense, but I thought it would be a fun addition to the project)88 
+Much of the text content was generated by the AI, GPT-4, including the boilder plate for the html.
 Any code utilised from a site is documented and credited within the code.
-All photographs, authors, license rights, copyright, etc. used in this project can be found [here](https://unsplash.com/collections/8825126/used-in-horizon-photo). No credit is required from Unsplash,  
-All other media used is my own.
+Bootstrap is heavly relied apon for the navbar, footer, contact page, buttons and styling.
+All photographs are screen shots from the Blender website or YouTube. The mockup images where made using a free online tool.
+The README is based heavly on the template from [https://theblep.github.io/the-history-of-blender/index.html](https://theblep.github.io/the-history-of-blender/index.html)
 
 ### Contact
 Please feel free to contact me via github.
